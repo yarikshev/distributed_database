@@ -1,0 +1,22 @@
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClient\bin\Debug\WCFClient.exe.config
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClient\bin\Debug\WCFClient.exe
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClient\bin\Debug\WCFClient.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClient\bin\Debug\WCFService.dll
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClient\bin\Debug\WCFService.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClient\obj\Debug\WCFClient.Form1.resources
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClient\obj\Debug\WCFClient.Properties.Resources.resources
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClient\obj\Debug\WCFClient.csproj.GenerateResource.Cache
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClient\obj\Debug\WCFClient.exe
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClient\obj\Debug\WCFClient.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClient\obj\Debug\WCFClient.csprojResolveAssemblyReference.cache
+E:\5_2\гайдаржи\BD(3)\WCFClient\bin\Debug\WCFClient.exe.config
+E:\5_2\гайдаржи\BD(3)\WCFClient\obj\Debug\WCFClient.exe
+E:\5_2\гайдаржи\BD(3)\WCFClient\obj\Debug\WCFClient.pdb
+E:\5_2\гайдаржи\BD(3)\WCFClient\bin\Debug\WCFClient.exe
+E:\5_2\гайдаржи\BD(3)\WCFClient\bin\Debug\WCFClient.pdb
+E:\5_2\гайдаржи\BD(3)\WCFClient\bin\Debug\WCFService.dll
+E:\5_2\гайдаржи\BD(3)\WCFClient\bin\Debug\WCFService.pdb
+E:\5_2\гайдаржи\BD(3)\WCFClient\obj\Debug\WCFClient.csprojResolveAssemblyReference.cache
+E:\5_2\гайдаржи\BD(3)\WCFClient\obj\Debug\WCFClient.Form1.resources
+E:\5_2\гайдаржи\BD(3)\WCFClient\obj\Debug\WCFClient.Properties.Resources.resources
+E:\5_2\гайдаржи\BD(3)\WCFClient\obj\Debug\WCFClient.csproj.GenerateResource.Cache

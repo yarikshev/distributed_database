@@ -1,0 +1,22 @@
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\ClientForm\bin\Debug\ClientForm.exe.config
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\ClientForm\bin\Debug\ClientForm.exe
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\ClientForm\bin\Debug\ClientForm.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\ClientForm\bin\Debug\RemotingObject.dll
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\ClientForm\bin\Debug\RemotingObject.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\ClientForm\obj\Debug\ClientForm.Form1.resources
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\ClientForm\obj\Debug\ClientForm.Properties.Resources.resources
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\ClientForm\obj\Debug\ClientForm.csproj.GenerateResource.Cache
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\ClientForm\obj\Debug\ClientForm.exe
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\ClientForm\obj\Debug\ClientForm.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\ClientForm\obj\Debug\ClientForm.csprojResolveAssemblyReference.cache
+E:\5_2\гайдаржи\BD(2)\ClientForm\bin\Debug\ClientForm.exe.config
+E:\5_2\гайдаржи\BD(2)\ClientForm\obj\Debug\ClientForm.exe
+E:\5_2\гайдаржи\BD(2)\ClientForm\obj\Debug\ClientForm.pdb
+E:\5_2\гайдаржи\BD(2)\ClientForm\bin\Debug\ClientForm.exe
+E:\5_2\гайдаржи\BD(2)\ClientForm\bin\Debug\ClientForm.pdb
+E:\5_2\гайдаржи\BD(2)\ClientForm\bin\Debug\RemotingObject.dll
+E:\5_2\гайдаржи\BD(2)\ClientForm\bin\Debug\RemotingObject.pdb
+E:\5_2\гайдаржи\BD(2)\ClientForm\obj\Debug\ClientForm.csprojResolveAssemblyReference.cache
+E:\5_2\гайдаржи\BD(2)\ClientForm\obj\Debug\ClientForm.Form1.resources
+E:\5_2\гайдаржи\BD(2)\ClientForm\obj\Debug\ClientForm.Properties.Resources.resources
+E:\5_2\гайдаржи\BD(2)\ClientForm\obj\Debug\ClientForm.csproj.GenerateResource.Cache

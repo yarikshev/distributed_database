@@ -1,0 +1,48 @@
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnectionForm\bin\Debug\BDConnectionForm.exe.config
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnectionForm\bin\Debug\BDConnectionForm.exe
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnectionForm\bin\Debug\BDConnectionForm.pdb
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnectionForm\obj\Debug\BDConnectionForm.csprojResolveAssemblyReference.cache
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnectionForm\obj\Debug\BDConnectionForm.Form1.resources
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnectionForm\obj\Debug\BDConnectionForm.Properties.Resources.resources
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnectionForm\obj\Debug\BDConnectionForm.csproj.GenerateResource.Cache
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnectionForm\obj\Debug\BDConnectionForm.exe
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnectionForm\obj\Debug\BDConnectionForm.pdb
+C:\Users\user\Desktop\BD1\BDConnectionForm\bin\Debug\BDConnectionForm.exe.config
+C:\Users\user\Desktop\BD1\BDConnectionForm\obj\Debug\BDConnectionForm.exe
+C:\Users\user\Desktop\BD1\BDConnectionForm\obj\Debug\BDConnectionForm.pdb
+C:\Users\user\Desktop\BD1\BDConnectionForm\bin\Debug\BDConnectionForm.exe
+C:\Users\user\Desktop\BD1\BDConnectionForm\bin\Debug\BDConnectionForm.pdb
+C:\Users\user\Desktop\BD1\BDConnectionForm\obj\Debug\BDConnectionForm.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\BD1\BDConnectionForm\obj\Debug\BDConnectionForm.Form1.resources
+C:\Users\user\Desktop\BD1\BDConnectionForm\obj\Debug\BDConnectionForm.Properties.Resources.resources
+C:\Users\user\Desktop\BD1\BDConnectionForm\obj\Debug\BDConnectionForm.csproj.GenerateResource.Cache
+C:\Users\yelis\Desktop\bd2\BDConnectionForm\bin\Debug\BDConnectionForm.exe.config
+C:\Users\yelis\Desktop\bd2\BDConnectionForm\obj\Debug\BDConnectionForm.exe
+C:\Users\yelis\Desktop\bd2\BDConnectionForm\obj\Debug\BDConnectionForm.pdb
+C:\Users\yelis\Desktop\bd2\BDConnectionForm\bin\Debug\BDConnectionForm.exe
+C:\Users\yelis\Desktop\bd2\BDConnectionForm\bin\Debug\BDConnectionForm.pdb
+C:\Users\yelis\Desktop\bd2\BDConnectionForm\obj\Debug\BDConnectionForm.csprojResolveAssemblyReference.cache
+C:\Users\yelis\Desktop\bd2\BDConnectionForm\obj\Debug\BDConnectionForm.Form1.resources
+C:\Users\yelis\Desktop\bd2\BDConnectionForm\obj\Debug\BDConnectionForm.Properties.Resources.resources
+C:\Users\yelis\Desktop\bd2\BDConnectionForm\obj\Debug\BDConnectionForm.csproj.GenerateResource.Cache
+C:\Users\yelis\Documents\Visual Studio 2013\Projects\BD\BDConnectionForm\bin\Debug\BDConnectionForm.exe.config
+C:\Users\yelis\Documents\Visual Studio 2013\Projects\BD\BDConnectionForm\obj\Debug\BDConnectionForm.exe
+C:\Users\yelis\Documents\Visual Studio 2013\Projects\BD\BDConnectionForm\obj\Debug\BDConnectionForm.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\BDConnectionForm\bin\Debug\BDConnectionForm.exe.config
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\BDConnectionForm\obj\Debug\BDConnectionForm.exe
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\BDConnectionForm\obj\Debug\BDConnectionForm.pdb
+C:\Users\Yaroslav\Desktop\BD\BD\BDConnectionForm\bin\Debug\BDConnectionForm.exe.config
+C:\Users\Yaroslav\Desktop\BD\BD\BDConnectionForm\obj\Debug\BDConnectionForm.exe
+C:\Users\Yaroslav\Desktop\BD\BD\BDConnectionForm\obj\Debug\BDConnectionForm.pdb
+E:\5_2-6_1\5.2\гайдаржи\BD\BD\BDConnectionForm\bin\Debug\BDConnectionForm.exe.config
+E:\5_2-6_1\5.2\гайдаржи\BD\BD\BDConnectionForm\obj\Debug\BDConnectionForm.exe
+E:\5_2-6_1\5.2\гайдаржи\BD\BD\BDConnectionForm\obj\Debug\BDConnectionForm.pdb
+E:\5_2-6_1\5.2\гайдаржи\BD\BD\BDConnectionForm\bin\Debug\BDConnectionForm.exe
+E:\5_2-6_1\5.2\гайдаржи\BD\BD\BDConnectionForm\bin\Debug\BDConnectionForm.pdb
+E:\5_2-6_1\5.2\гайдаржи\BD\BD\BDConnectionForm\obj\Debug\BDConnectionForm.csprojResolveAssemblyReference.cache
+E:\5_2-6_1\5.2\гайдаржи\BD\BD\BDConnectionForm\obj\Debug\BDConnectionForm.Form1.resources
+E:\5_2-6_1\5.2\гайдаржи\BD\BD\BDConnectionForm\obj\Debug\BDConnectionForm.Properties.Resources.resources
+E:\5_2-6_1\5.2\гайдаржи\BD\BD\BDConnectionForm\obj\Debug\BDConnectionForm.csproj.GenerateResource.Cache
+E:\gitprojects\distributed_database\BD\BD\BDConnectionForm\bin\Debug\BDConnectionForm.exe.config
+E:\gitprojects\distributed_database\BD\BD\BDConnectionForm\obj\Debug\BDConnectionForm.exe
+E:\gitprojects\distributed_database\BD\BD\BDConnectionForm\obj\Debug\BDConnectionForm.pdb

@@ -1,0 +1,18 @@
+C:\Documets\Visual Studio 2013\Projects\BD\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Documets\Visual Studio 2013\Projects\BD\ConsoleApplication1\obj\Debug\BDModel.csprojResolveAssemblyReference.cache
+C:\Documets\Visual Studio 2013\Projects\BD\ConsoleApplication1\obj\Debug\ConsoleApplication1.Form1.resources
+C:\Documets\Visual Studio 2013\Projects\BD\ConsoleApplication1\obj\Debug\BDModel.csproj.GenerateResource.Cache
+C:\Documets\Visual Studio 2013\Projects\BD\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Documets\Visual Studio 2013\Projects\BD\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Documets\Visual Studio 2013\Projects\BD\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Documets\Visual Studio 2013\Projects\BD\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Documets\Visual Studio 2013\Projects\BD\ConsoleApplication1\obj\Debug\ConsoleApplication1.Properties.Resources.resources
+E:\gitprojects\distributed_database\BD\BD\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\gitprojects\distributed_database\BD\BD\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\gitprojects\distributed_database\BD\BD\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\gitprojects\distributed_database\BD\BD\ConsoleApplication1\obj\Debug\BDModel.csprojResolveAssemblyReference.cache
+E:\gitprojects\distributed_database\BD\BD\ConsoleApplication1\obj\Debug\ConsoleApplication1.Form1.resources
+E:\gitprojects\distributed_database\BD\BD\ConsoleApplication1\obj\Debug\ConsoleApplication1.Properties.Resources.resources
+E:\gitprojects\distributed_database\BD\BD\ConsoleApplication1\obj\Debug\BDModel.csproj.GenerateResource.Cache
+E:\gitprojects\distributed_database\BD\BD\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\gitprojects\distributed_database\BD\BD\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

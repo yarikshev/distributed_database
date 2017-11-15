@@ -1,0 +1,18 @@
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClientMEX\bin\Debug\WCFClientMEX.exe.config
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClientMEX\bin\Debug\WCFClientMEX.exe
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClientMEX\bin\Debug\WCFClientMEX.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClientMEX\obj\Debug\WCFClientMEX.Form1.resources
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClientMEX\obj\Debug\WCFClientMEX.Properties.Resources.resources
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClientMEX\obj\Debug\WCFClientMEX.csproj.GenerateResource.Cache
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClientMEX\obj\Debug\WCFClientMEX.exe
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClientMEX\obj\Debug\WCFClientMEX.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFClientMEX\obj\Debug\WCFClientMEX.csprojResolveAssemblyReference.cache
+E:\5_2\гайдаржи\BD(3)\WCFClientMEX\bin\Debug\WCFClientMEX.exe.config
+E:\5_2\гайдаржи\BD(3)\WCFClientMEX\obj\Debug\WCFClientMEX.exe
+E:\5_2\гайдаржи\BD(3)\WCFClientMEX\obj\Debug\WCFClientMEX.pdb
+E:\5_2\гайдаржи\BD(3)\WCFClientMEX\bin\Debug\WCFClientMEX.exe
+E:\5_2\гайдаржи\BD(3)\WCFClientMEX\bin\Debug\WCFClientMEX.pdb
+E:\5_2\гайдаржи\BD(3)\WCFClientMEX\obj\Debug\WCFClientMEX.csprojResolveAssemblyReference.cache
+E:\5_2\гайдаржи\BD(3)\WCFClientMEX\obj\Debug\WCFClientMEX.Form1.resources
+E:\5_2\гайдаржи\BD(3)\WCFClientMEX\obj\Debug\WCFClientMEX.Properties.Resources.resources
+E:\5_2\гайдаржи\BD(3)\WCFClientMEX\obj\Debug\WCFClientMEX.csproj.GenerateResource.Cache

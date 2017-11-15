@@ -1,0 +1,22 @@
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingServer\obj\Debug\RemotingServer.csprojResolveAssemblyReference.cache
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingServer\obj\Debug\RemotingServer.Form1.resources
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingServer\obj\Debug\RemotingServer.Properties.Resources.resources
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingServer\obj\Debug\RemotingServer.csproj.GenerateResource.Cache
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingServer\bin\Debug\RemotingServer.exe.config
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingServer\bin\Debug\RemotingServer.exe
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingServer\bin\Debug\RemotingServer.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingServer\bin\Debug\RemotingObject.dll
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingServer\bin\Debug\RemotingObject.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingServer\obj\Debug\RemotingServer.exe
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingServer\obj\Debug\RemotingServer.pdb
+E:\5_2\гайдаржи\BD(2)\RemotingServer\bin\Debug\RemotingServer.exe.config
+E:\5_2\гайдаржи\BD(2)\RemotingServer\obj\Debug\RemotingServer.exe
+E:\5_2\гайдаржи\BD(2)\RemotingServer\obj\Debug\RemotingServer.pdb
+E:\5_2\гайдаржи\BD(2)\RemotingServer\bin\Debug\RemotingServer.exe
+E:\5_2\гайдаржи\BD(2)\RemotingServer\bin\Debug\RemotingServer.pdb
+E:\5_2\гайдаржи\BD(2)\RemotingServer\bin\Debug\RemotingObject.dll
+E:\5_2\гайдаржи\BD(2)\RemotingServer\bin\Debug\RemotingObject.pdb
+E:\5_2\гайдаржи\BD(2)\RemotingServer\obj\Debug\RemotingServer.csprojResolveAssemblyReference.cache
+E:\5_2\гайдаржи\BD(2)\RemotingServer\obj\Debug\RemotingServer.Form1.resources
+E:\5_2\гайдаржи\BD(2)\RemotingServer\obj\Debug\RemotingServer.Properties.Resources.resources
+E:\5_2\гайдаржи\BD(2)\RemotingServer\obj\Debug\RemotingServer.csproj.GenerateResource.Cache

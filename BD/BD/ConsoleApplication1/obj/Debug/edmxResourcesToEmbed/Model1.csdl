@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="EmployeesSet" EntityType="Model1.Employees" />
+    <EntitySet Name="AccountingSet" EntityType="Model1.Accounting" />
+    <AssociationSet Name="AccountingEmployers" Association="Model1.AccountingEmployers">
+      <End Role="Accounting" EntitySet="AccountingSet" />
+      <End Role="Employers" EntitySet="EmployeesSet" />
+    </AssociationSet>
+    <EntitySet Name="PurchaseInvoicesSet" EntityType="Model1.PurchaseInvoices" />
+    <EntitySet Name="SalesInvoiceSet" EntityType="Model1.SalesInvoice" />
+    <AssociationSet Name="PurchaseInvoicesEmployers" Association="Model1.PurchaseInvoicesEmployers">
+      <End Role="PurchaseInvoices" EntitySet="PurchaseInvoicesSet" />
+      <End Role="Employers" EntitySet="EmployeesSet" />
+    </AssociationSet>
+    <EntitySet Name="GoodsSet" EntityType="Model1.Goods" />
+    <EntitySet Name="SiteChangesSet" EntityType="Model1.SiteChanges" />
+    <AssociationSet Name="SiteChangesEmployees" Association="Model1.SiteChangesEmployees">
+      <End Role="SiteChanges" EntitySet="SiteChangesSet" />
+      <End Role="Employees" EntitySet="EmployeesSet" />
+    </AssociationSet>
+    <EntitySet Name="EmpOrdersSet" EntityType="Model1.EmpOrders" />
+    <AssociationSet Name="OrdersEmployees" Association="Model1.OrdersEmployees">
+      <End Role="Orders" EntitySet="EmpOrdersSet" />
+      <End Role="Employees" EntitySet="EmployeesSet" />
+    </AssociationSet>
+    <EntitySet Name="DeliverySet" EntityType="Model1.Delivery" />
+    <AssociationSet Name="GoodsDelivery" Association="Model1.GoodsDelivery">
+      <End Role="Goods" EntitySet="GoodsSet" />
+      <End Role="Delivery" EntitySet="DeliverySet" />
+    </AssociationSet>
+    <EntitySet Name="CVsSet" EntityType="Model1.CVs" />
+    <EntitySet Name="TechnicAccountingSet" EntityType="Model1.TechnicAccounting" />
+    <AssociationSet Name="DeliveryEmployees" Association="Model1.DeliveryEmployees">
+      <End Role="Delivery" EntitySet="DeliverySet" />
+      <End Role="Employees" EntitySet="EmployeesSet" />
+    </AssociationSet>
+    <AssociationSet Name="EmployeesTechnicAccounting" Association="Model1.EmployeesTechnicAccounting">
+      <End Role="Employees" EntitySet="EmployeesSet" />
+      <End Role="TechnicAccounting" EntitySet="TechnicAccountingSet" />
+    </AssociationSet>
+    <AssociationSet Name="GoodsTechnicAccounting" Association="Model1.GoodsTechnicAccounting">
+      <End Role="Goods" EntitySet="GoodsSet" />
+      <End Role="TechnicAccounting" EntitySet="TechnicAccountingSet" />
+    </AssociationSet>
+    <EntitySet Name="ContractSet" EntityType="Model1.Contract" />
+    <AssociationSet Name="EmployeesLaw" Association="Model1.EmployeesLaw">
+      <End Role="Employees" EntitySet="EmployeesSet" />
+      <End Role="Law" EntitySet="ContractSet" />
+    </AssociationSet>
+    <AssociationSet Name="SalesInvoiceEmployees" Association="Model1.SalesInvoiceEmployees">
+      <End Role="SalesInvoice" EntitySet="SalesInvoiceSet" />
+      <End Role="Employees" EntitySet="EmployeesSet" />
+    </AssociationSet>
+    <EntitySet Name="CandidateSet" EntityType="Model1.Candidate" />
+    <AssociationSet Name="CandidateCVs" Association="Model1.CandidateCVs">
+      <End Role="Candidate" EntitySet="CandidateSet" />
+      <End Role="CVs" EntitySet="CVsSet" />
+    </AssociationSet>
+    <AssociationSet Name="EmployeesCandidate" Association="Model1.EmployeesCandidate">
+      <End Role="Employees" EntitySet="EmployeesSet" />
+      <End Role="Candidate" EntitySet="CandidateSet" />
+    </AssociationSet>
+    <AssociationSet Name="GoodsPurchaseInvoices" Association="Model1.GoodsPurchaseInvoices">
+      <End Role="Goods" EntitySet="GoodsSet" />
+      <End Role="PurchaseInvoices" EntitySet="PurchaseInvoicesSet" />
+    </AssociationSet>
+    <AssociationSet Name="GoodsSalesInvoice" Association="Model1.GoodsSalesInvoice">
+      <End Role="Goods" EntitySet="GoodsSet" />
+      <End Role="SalesInvoice" EntitySet="SalesInvoiceSet" />
+    </AssociationSet>
+    <AssociationSet Name="ContractPurchaseInvoices" Association="Model1.ContractPurchaseInvoices">
+      <End Role="Contract" EntitySet="ContractSet" />
+      <End Role="PurchaseInvoices" EntitySet="PurchaseInvoicesSet" />
+    </AssociationSet>
+    <AssociationSet Name="ContractSalesInvoice" Association="Model1.ContractSalesInvoice">
+      <End Role="Contract" EntitySet="ContractSet" />
+      <End Role="SalesInvoice" EntitySet="SalesInvoiceSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Surname" Type="String" Nullable="false" />
+    <Property Name="MiddleName" Type="String" Nullable="false" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="Position" Type="String" Nullable="false" />
+    <NavigationProperty Name="Accounting" Relationship="Model1.AccountingEmployers" FromRole="Employers" ToRole="Accounting" />
+    <NavigationProperty Name="PurchaseInvoices" Relationship="Model1.PurchaseInvoicesEmployers" FromRole="Employers" ToRole="PurchaseInvoices" />
+    <NavigationProperty Name="SiteChanges" Relationship="Model1.SiteChangesEmployees" FromRole="Employees" ToRole="SiteChanges" />
+    <NavigationProperty Name="Orders" Relationship="Model1.OrdersEmployees" FromRole="Employees" ToRole="Orders" />
+    <NavigationProperty Name="Delivery" Relationship="Model1.DeliveryEmployees" FromRole="Employees" ToRole="Delivery" />
+    <NavigationProperty Name="TechnicAccounting" Relationship="Model1.EmployeesTechnicAccounting" FromRole="Employees" ToRole="TechnicAccounting" />
+    <NavigationProperty Name="Law" Relationship="Model1.EmployeesLaw" FromRole="Employees" ToRole="Law" />
+    <NavigationProperty Name="SalesInvoice" Relationship="Model1.SalesInvoiceEmployees" FromRole="Employees" ToRole="SalesInvoice" />
+    <NavigationProperty Name="Candidate" Relationship="Model1.EmployeesCandidate" FromRole="Employees" ToRole="Candidate" />
+  </EntityType>
+  <EntityType Name="Accounting">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployerId" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="String" Nullable="false" />
+    <Property Name="AmountOfHours" Type="String" Nullable="false" />
+    <NavigationProperty Name="Employers" Relationship="Model1.AccountingEmployers" FromRole="Accounting" ToRole="Employers" />
+  </EntityType>
+  <Association Name="AccountingEmployers">
+    <End Type="Model1.Accounting" Role="Accounting" Multiplicity="1" />
+    <End Type="Model1.Employees" Role="Employers" Multiplicity="1" />
+  </Association>
+  <EntityType Name="PurchaseInvoices">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Employers" Relationship="Model1.PurchaseInvoicesEmployers" FromRole="PurchaseInvoices" ToRole="Employers" />
+    <Property Name="GoodId" Type="String" Nullable="false" />
+    <Property Name="Amount" Type="String" Nullable="false" />
+    <Property Name="EmployerId" Type="String" Nullable="false" />
+    <Property Name="DateandTime" Nullable="false" Type="String" />
+    <Property Name="Cost" Type="String" Nullable="false" />
+    <Property Name="OrderInf" Type="String" Nullable="false" />
+    <NavigationProperty Name="Goods" Relationship="Model1.GoodsPurchaseInvoices" FromRole="PurchaseInvoices" ToRole="Goods" />
+    <Property Name="ContractGood" Type="String" Nullable="false" />
+    <NavigationProperty Name="Contract" Relationship="Model1.ContractPurchaseInvoices" FromRole="PurchaseInvoices" ToRole="Contract" />
+  </EntityType>
+  <EntityType Name="SalesInvoice">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderInf" Type="String" Nullable="false" />
+    <Property Name="Cost" Type="String" Nullable="false" />
+    <Property Name="DateandTime" Type="String" Nullable="false" />
+    <Property Name="EmployerId" Type="String" Nullable="false" />
+    <Property Name="ContractGood" Type="String" Nullable="false" />
+    <Property Name="Amount" Type="String" Nullable="false" />
+    <Property Name="GoodId" Type="String" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="Model1.SalesInvoiceEmployees" FromRole="SalesInvoice" ToRole="Employees" />
+    <NavigationProperty Name="Goods" Relationship="Model1.GoodsSalesInvoice" FromRole="SalesInvoice" ToRole="Goods" />
+    <NavigationProperty Name="Contract" Relationship="Model1.ContractSalesInvoice" FromRole="SalesInvoice" ToRole="Contract" />
+  </EntityType>
+  <Association Name="PurchaseInvoicesEmployers">
+    <End Type="Model1.PurchaseInvoices" Role="PurchaseInvoices" Multiplicity="1" />
+    <End Type="Model1.Employees" Role="Employers" Multiplicity="1" />
+  </Association>
+  <EntityType Name="Goods">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Description" Type="String" Nullable="false" />
+    <NavigationProperty Name="Delivery" Relationship="Model1.GoodsDelivery" FromRole="Goods" ToRole="Delivery" />
+    <NavigationProperty Name="TechnicAccounting" Relationship="Model1.GoodsTechnicAccounting" FromRole="Goods" ToRole="TechnicAccounting" />
+    <NavigationProperty Name="PurchaseInvoices" Relationship="Model1.GoodsPurchaseInvoices" FromRole="Goods" ToRole="PurchaseInvoices" />
+    <NavigationProperty Name="SalesInvoice" Relationship="Model1.GoodsSalesInvoice" FromRole="Goods" ToRole="SalesInvoice" />
+  </EntityType>
+  <EntityType Name="SiteChanges">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="String" Nullable="false" />
+    <Property Name="Change" Type="String" Nullable="false" />
+    <Property Name="Eployee" Type="String" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="Model1.SiteChangesEmployees" FromRole="SiteChanges" ToRole="Employees" />
+  </EntityType>
+  <Association Name="SiteChangesEmployees">
+    <End Type="Model1.SiteChanges" Role="SiteChanges" Multiplicity="1" />
+    <End Type="Model1.Employees" Role="Employees" Multiplicity="1" />
+  </Association>
+  <EntityType Name="EmpOrders">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Employee" Type="String" Nullable="false" />
+    <Property Name="KindOfOrder" Type="String" Nullable="false" />
+    <Property Name="DateFrom" Type="String" Nullable="false" />
+    <Property Name="DateTo" Type="String" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="Model1.OrdersEmployees" FromRole="Orders" ToRole="Employees" />
+  </EntityType>
+  <Association Name="OrdersEmployees">
+    <End Type="Model1.EmpOrders" Role="Orders" Multiplicity="*" />
+    <End Type="Model1.Employees" Role="Employees" Multiplicity="1" />
+  </Association>
+  <EntityType Name="Delivery">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Good" Type="String" Nullable="false" />
+    <Property Name="Status" Type="String" Nullable="false" />
+    <Property Name="DateTime" Type="String" Nullable="false" />
+    <Property Name="Note" Type="String" Nullable="false" />
+    <NavigationProperty Name="Goods" Relationship="Model1.GoodsDelivery" FromRole="Delivery" ToRole="Goods" />
+    <Property Name="Employee" Type="String" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="Model1.DeliveryEmployees" FromRole="Delivery" ToRole="Employees" />
+  </EntityType>
+  <Association Name="GoodsDelivery">
+    <End Type="Model1.Goods" Role="Goods" Multiplicity="1" />
+    <End Type="Model1.Delivery" Role="Delivery" Multiplicity="*" />
+  </Association>
+  <EntityType Name="CVs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Surname" Type="String" Nullable="false" />
+    <Property Name="Age" Type="String" Nullable="false" />
+    <Property Name="CvFile" Type="String" Nullable="false" />
+    <NavigationProperty Name="Candidate" Relationship="Model1.CandidateCVs" FromRole="CVs" ToRole="Candidate" />
+  </EntityType>
+  <EntityType Name="TechnicAccounting">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GoodId" Type="String" Nullable="false" />
+    <Property Name="KindOfMalfunction" Type="String" Nullable="false" />
+    <Property Name="Employee" Type="String" Nullable="false" />
+    <Property Name="Date" Type="String" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="Model1.EmployeesTechnicAccounting" FromRole="TechnicAccounting" ToRole="Employees" />
+    <NavigationProperty Name="Goods" Relationship="Model1.GoodsTechnicAccounting" FromRole="TechnicAccounting" ToRole="Goods" />
+  </EntityType>
+  <Association Name="DeliveryEmployees">
+    <End Type="Model1.Delivery" Role="Delivery" Multiplicity="1" />
+    <End Type="Model1.Employees" Role="Employees" Multiplicity="1" />
+  </Association>
+  <Association Name="EmployeesTechnicAccounting">
+    <End Type="Model1.Employees" Role="Employees" Multiplicity="1" />
+    <End Type="Model1.TechnicAccounting" Role="TechnicAccounting" Multiplicity="*" />
+  </Association>
+  <Association Name="GoodsTechnicAccounting">
+    <End Type="Model1.Goods" Role="Goods" Multiplicity="1" />
+    <End Type="Model1.TechnicAccounting" Role="TechnicAccounting" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Contract">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeOfService" Type="String" Nullable="false" />
+    <Property Name="Employee" Type="String" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="Model1.EmployeesLaw" FromRole="Law" ToRole="Employees" />
+    <Property Name="ContractDate" Type="String" Nullable="false" />
+    <NavigationProperty Name="PurchaseInvoices" Relationship="Model1.ContractPurchaseInvoices" FromRole="Contract" ToRole="PurchaseInvoices" />
+    <NavigationProperty Name="SalesInvoice" Relationship="Model1.ContractSalesInvoice" FromRole="Contract" ToRole="SalesInvoice" />
+  </EntityType>
+  <Association Name="EmployeesLaw">
+    <End Type="Model1.Employees" Role="Employees" Multiplicity="1" />
+    <End Type="Model1.Contract" Role="Law" Multiplicity="1" />
+  </Association>
+  <Association Name="SalesInvoiceEmployees">
+    <End Type="Model1.SalesInvoice" Role="SalesInvoice" Multiplicity="1" />
+    <End Type="Model1.Employees" Role="Employees" Multiplicity="1" />
+  </Association>
+  <EntityType Name="Candidate">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Employee" Type="String" Nullable="false" />
+    <Property Name="CV_Id" Type="String" Nullable="false" />
+    <NavigationProperty Name="CVs" Relationship="Model1.CandidateCVs" FromRole="Candidate" ToRole="CVs" />
+    <NavigationProperty Name="Employees" Relationship="Model1.EmployeesCandidate" FromRole="Candidate" ToRole="Employees" />
+  </EntityType>
+  <Association Name="CandidateCVs">
+    <End Type="Model1.Candidate" Role="Candidate" Multiplicity="1" />
+    <End Type="Model1.CVs" Role="CVs" Multiplicity="1" />
+  </Association>
+  <Association Name="EmployeesCandidate">
+    <End Type="Model1.Employees" Role="Employees" Multiplicity="1" />
+    <End Type="Model1.Candidate" Role="Candidate" Multiplicity="*" />
+  </Association>
+  <Association Name="GoodsPurchaseInvoices">
+    <End Type="Model1.Goods" Role="Goods" Multiplicity="1" />
+    <End Type="Model1.PurchaseInvoices" Role="PurchaseInvoices" Multiplicity="*" />
+  </Association>
+  <Association Name="GoodsSalesInvoice">
+    <End Type="Model1.Goods" Role="Goods" Multiplicity="1" />
+    <End Type="Model1.SalesInvoice" Role="SalesInvoice" Multiplicity="*" />
+  </Association>
+  <Association Name="ContractPurchaseInvoices">
+    <End Type="Model1.Contract" Role="Contract" Multiplicity="1" />
+    <End Type="Model1.PurchaseInvoices" Role="PurchaseInvoices" Multiplicity="*" />
+  </Association>
+  <Association Name="ContractSalesInvoice">
+    <End Type="Model1.Contract" Role="Contract" Multiplicity="1" />
+    <End Type="Model1.SalesInvoice" Role="SalesInvoice" Multiplicity="*" />
+  </Association>
+</Schema>

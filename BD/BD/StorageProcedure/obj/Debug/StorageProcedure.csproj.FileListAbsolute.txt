@@ -1,0 +1,21 @@
+C:\Documets\Visual Studio 2013\Projects\BD\StorageProcedure\bin\Debug\StorageProcedure.exe.config
+C:\Documets\Visual Studio 2013\Projects\BD\StorageProcedure\bin\Debug\StorageProcedure.exe
+C:\Documets\Visual Studio 2013\Projects\BD\StorageProcedure\bin\Debug\StorageProcedure.pdb
+C:\Documets\Visual Studio 2013\Projects\BD\StorageProcedure\obj\Debug\StorageProcedure.Form1.resources
+C:\Documets\Visual Studio 2013\Projects\BD\StorageProcedure\obj\Debug\StorageProcedure.Properties.Resources.resources
+C:\Documets\Visual Studio 2013\Projects\BD\StorageProcedure\obj\Debug\StorageProcedure.csproj.GenerateResource.Cache
+C:\Documets\Visual Studio 2013\Projects\BD\StorageProcedure\obj\Debug\StorageProcedure.exe
+C:\Documets\Visual Studio 2013\Projects\BD\StorageProcedure\obj\Debug\StorageProcedure.pdb
+C:\Documets\Visual Studio 2013\Projects\BD\StorageProcedure\obj\Debug\StorageProcedure.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\BD1\StorageProcedure\bin\Debug\StorageProcedure.exe.config
+C:\Users\user\Desktop\BD1\StorageProcedure\obj\Debug\StorageProcedure.exe
+C:\Users\user\Desktop\BD1\StorageProcedure\obj\Debug\StorageProcedure.pdb
+E:\gitprojects\distributed_database\BD\BD\StorageProcedure\bin\Debug\StorageProcedure.exe.config
+E:\gitprojects\distributed_database\BD\BD\StorageProcedure\bin\Debug\StorageProcedure.exe
+E:\gitprojects\distributed_database\BD\BD\StorageProcedure\bin\Debug\StorageProcedure.pdb
+E:\gitprojects\distributed_database\BD\BD\StorageProcedure\obj\Debug\StorageProcedure.csprojResolveAssemblyReference.cache
+E:\gitprojects\distributed_database\BD\BD\StorageProcedure\obj\Debug\StorageProcedure.Form1.resources
+E:\gitprojects\distributed_database\BD\BD\StorageProcedure\obj\Debug\StorageProcedure.Properties.Resources.resources
+E:\gitprojects\distributed_database\BD\BD\StorageProcedure\obj\Debug\StorageProcedure.csproj.GenerateResource.Cache
+E:\gitprojects\distributed_database\BD\BD\StorageProcedure\obj\Debug\StorageProcedure.exe
+E:\gitprojects\distributed_database\BD\BD\StorageProcedure\obj\Debug\StorageProcedure.pdb

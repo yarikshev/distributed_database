@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="542e87cdb3f44e21a54150589c382d30" Name="Diagram1" ZoomLevel="77" >
+        <EntityTypeShape EntityType="Model1.Employees" Width="1.5" PointX="6.5" PointY="2.75" />
+        <EntityTypeShape EntityType="Model1.Accounting" Width="1.5" PointX="2.5" PointY="0.75" />
+        <AssociationConnector Association="Model1.AccountingEmployers" ManuallyRouted="false" >
+        </AssociationConnector>
+        <EntityTypeShape EntityType="Model1.PurchaseInvoices" Width="1.5" PointX="2.5" PointY="8.375" />
+        <EntityTypeShape EntityType="Model1.SalesInvoice" Width="2" PointX="7.375" PointY="8.25" />
+        <AssociationConnector Association="Model1.PurchaseInvoicesEmployers" ManuallyRouted="false" >
+        </AssociationConnector>
+        <EntityTypeShape EntityType="Model1.Goods" Width="1.5" PointX="9.5" PointY="4.875" />
+        <EntityTypeShape EntityType="Model1.SiteChanges" Width="1.5" PointX="12.875" PointY="3.375" />
+        <AssociationConnector Association="Model1.SiteChangesEmployees" />
+        <EntityTypeShape EntityType="Model1.EmpOrders" Width="1.5" PointX="8.625" PointY="0.75" />
+        <AssociationConnector Association="Model1.OrdersEmployees" />
+        <EntityTypeShape EntityType="Model1.Delivery" Width="1.5" PointX="10.5" PointY="0.75" />
+        <AssociationConnector Association="Model1.GoodsDelivery" ManuallyRouted="false" >
+          <ConnectorPoint PointX="8.2072229472878728" PointY="5.75" />
+          <ConnectorPoint PointX="8.2072229472878728" PointY="3.0571907552083331" />
+          <ConnectorPoint PointX="9.0970179000760343" PointY="3.0571907552083331" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="Model1.CVs" Width="1.5" PointX="12.125" PointY="8.25" />
+        <EntityTypeShape EntityType="Model1.TechnicAccounting" Width="1.5" PointX="1.25" PointY="3.375" />
+        <AssociationConnector Association="Model1.DeliveryEmployees" />
+        <AssociationConnector Association="Model1.EmployeesTechnicAccounting" />
+        <AssociationConnector Association="Model1.GoodsTechnicAccounting" />
+        <EntityTypeShape EntityType="Model1.Contract" Width="2.125" PointX="3.875" PointY="3" />
+        <AssociationConnector Association="Model1.EmployeesLaw" />
+        <AssociationConnector Association="Model1.SalesInvoiceEmployees" ManuallyRouted="false" >
+        </AssociationConnector>
+        <EntityTypeShape EntityType="Model1.Candidate" Width="1.5" PointX="12.25" PointY="5.75" />
+        <AssociationConnector Association="Model1.CandidateCVs" />
+        <AssociationConnector Association="Model1.EmployeesCandidate" />
+        <AssociationConnector Association="Model1.GoodsPurchaseInvoices" />
+        <AssociationConnector Association="Model1.GoodsSalesInvoice" />
+        <AssociationConnector Association="Model1.ContractPurchaseInvoices" />
+        <AssociationConnector Association="Model1.ContractSalesInvoice" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,10 @@
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingObject\bin\Debug\RemotingObject.dll
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingObject\bin\Debug\RemotingObject.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingObject\obj\Debug\RemotingObject.csprojResolveAssemblyReference.cache
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingObject\obj\Debug\RemotingObject.dll
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\RemotingObject\obj\Debug\RemotingObject.pdb
+E:\5_2\гайдаржи\BD(2)\RemotingObject\bin\Debug\RemotingObject.dll
+E:\5_2\гайдаржи\BD(2)\RemotingObject\bin\Debug\RemotingObject.pdb
+E:\5_2\гайдаржи\BD(2)\RemotingObject\obj\Debug\RemotingObject.csprojResolveAssemblyReference.cache
+E:\5_2\гайдаржи\BD(2)\RemotingObject\obj\Debug\RemotingObject.dll
+E:\5_2\гайдаржи\BD(2)\RemotingObject\obj\Debug\RemotingObject.pdb

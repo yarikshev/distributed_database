@@ -1,0 +1,12 @@
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnection\bin\Debug\BDConnection.exe.config
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnection\bin\Debug\BDConnection.exe
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnection\bin\Debug\BDConnection.pdb
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnection\obj\Debug\BDConnection.exe
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnection\obj\Debug\BDConnection.pdb
+C:\Documets\Visual Studio 2013\Projects\BD\BDConnection\obj\Debug\BDConnection.csprojResolveAssemblyReference.cache
+E:\gitprojects\distributed_database\BD\BD\BDConnection\bin\Debug\BDConnection.exe.config
+E:\gitprojects\distributed_database\BD\BD\BDConnection\bin\Debug\BDConnection.exe
+E:\gitprojects\distributed_database\BD\BD\BDConnection\bin\Debug\BDConnection.pdb
+E:\gitprojects\distributed_database\BD\BD\BDConnection\obj\Debug\BDConnection.csprojResolveAssemblyReference.cache
+E:\gitprojects\distributed_database\BD\BD\BDConnection\obj\Debug\BDConnection.exe
+E:\gitprojects\distributed_database\BD\BD\BDConnection\obj\Debug\BDConnection.pdb

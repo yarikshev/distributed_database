@@ -1,0 +1,1213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="cd126ec9-9662-4e9e-b76a-73e40d768d67" name="ShopDiagram" linkedPackageId="8602e9a2-47ae-424b-a929-1cf6f1e4c5a5" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="4aa8fca1-dcd5-4a90-afd2-1a1cf212c99a">
+      <elementDefinition Id="798124f6-4848-4b11-9327-84bd4280ff9d" />
+      <body>Відділ закупівлі</body>
+    </comment>
+    <comment Id="3058c3e4-2a04-4c2d-8dbc-f301d9e48a45">
+      <elementDefinition Id="0c83c90d-6f7e-4832-a94b-652173c34494" />
+      <body>Відділ кадрів</body>
+    </comment>
+    <comment Id="db86698c-002f-499a-af78-9864bdfd0bca">
+      <elementDefinition Id="5afcbaae-92d6-462c-9d14-146152597257" />
+      <body>Відділ продажу</body>
+    </comment>
+    <comment Id="c73f0fc7-f437-4fe7-a677-da20b08dc67a">
+      <elementDefinition Id="c62b8073-42eb-4375-8637-c8d969e84796" />
+      <body>Відділ керівників</body>
+    </comment>
+    <comment Id="53da387a-71e2-41d3-88a1-eb7a692d6f5c">
+      <elementDefinition Id="217d1739-25e8-4a7f-907b-c980bef3a180" />
+      <body>Відділ тех. обслуговування</body>
+    </comment>
+    <comment Id="7604f922-8167-48e1-8eca-1abbab0a7917">
+      <elementDefinition Id="9940576f-b1b0-41ed-af44-ff0a93b68e3b" />
+      <body>Відділ інтернет продажу</body>
+    </comment>
+    <comment Id="e7849c0c-77f3-4098-9b05-3c87516c8822">
+      <elementDefinition Id="37dbfb9c-4b16-495c-b498-eeb50e9cc3d7" />
+      <body>Юридичний відділ</body>
+    </comment>
+    <comment Id="df08ec6d-568e-4e5a-a2fc-7a6adf10b782">
+      <elementDefinition Id="ad880e85-e3ef-4063-9814-0fc15fbfa5ae" />
+      <body>Відділ доставки</body>
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="6fe07519-92d4-46c1-b6e9-639163455726" name="Генеральний директор" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e3e9cc5e-9027-4fc9-8911-dfde6376313a" />
+        <targetEnds>
+          <association Id="bc0f97ef-d5f8-4e75-89fc-1aff99407b5d" isDerived="false" sourceEndRoleName="Генеральний директор" targetEndRoleName="Прийняття рішень" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="63e37ff3-61db-4abf-99b4-567cd7aa6616" LastKnownName="Прийняття рішень" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c8cefc82-be87-4114-8bf7-ae764b0eac24" name="Генеральний директор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="65015408-bdff-4515-a79c-96409ecd6132" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="96fcd1e3-9ea4-413f-af17-53b278e01939" name="Прийняття рішень" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3bf45c64-951f-41f9-bacc-99c344cdce82" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f4e4b245-4a7e-4a85-8f3d-56dcffdc6f5b" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="fdd7a76c-5d74-4a08-9d0d-9523a12d8daf" name="Виконавчий директор" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="85e18db4-7c25-43bb-ba33-7a642011d607" />
+        <targetEnds>
+          <association Id="4d61e72c-ba2a-43bb-93e5-40ddf1b55a0b" isDerived="false" sourceEndRoleName="Виконавчий директор" targetEndRoleName="Перегляд звітів по кореспонденції" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="30dbc605-bc88-4a06-bf02-6b7c0acfb0cd" LastKnownName="Внесення пропозицій" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f577e890-bb45-4de0-934f-fc0c13ebbade" name="Виконавчий директор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b4297422-4936-4270-946d-851c7c543437" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="647c3bac-42ef-4507-8b59-64e4d452e7f3" name="Перегляд звітів по кореспонденції" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9e08c64b-5d4e-434e-97e3-f26640586e50" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a1d69d4e-51e8-4c79-8597-c30355c98bee" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="fa4f3331-8646-49f5-95d9-58d590a2499e" name="Секретар" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="aaa6f7d2-1168-4238-ba3d-5bbc60eacff4" />
+        <targetEnds>
+          <association Id="02bfae02-5611-44d2-b2a2-cf54ef37fc9e" isDerived="false" sourceEndRoleName="Секретар" targetEndRoleName="Введення вхідних документів" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ab7a2904-5071-4a85-8d88-2e6e33dfda9d" LastKnownName="Введення вхідних документів" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="42a2780d-6909-4a37-8e21-9a063812bd69" name="Секретар" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1143b265-d28e-4c6f-82c8-0f7d1f26e164" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aca3a79b-1631-4980-8c95-2b22a7d53f7e" name="Введення вхідних документів" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3269c544-4a30-4811-8420-b616cebc2585" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a09f4553-3e98-436b-a38f-2885a192c642" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="63e37ff3-61db-4abf-99b4-567cd7aa6616" name="Прийняття рішень" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0f106e2f-6ef2-47fe-847b-54bccca3cc6e" />
+        <targetEnds>
+          <association Id="b5f63e3d-73c5-492b-9b5a-7d7ad1031838" isDerived="false" sourceEndRoleName="Прийняття рішень" targetEndRoleName="Рішення по номенклатурі" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7dccd1a3-cfb5-4dbe-a240-3757e6f5bbe6" LastKnownName="Рішення по номенклатурі" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e5feaadb-3a8e-4d97-8063-71336bd19c72" name="Прийняття рішень" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0305d610-e4b6-4e1a-8b4a-81dc6fb917e5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="34b2b39f-0d2f-49a1-80d3-2ab6edd086ce" name="Рішення по номенклатурі" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b1fe1210-55c4-4d72-8cbf-ff69a7a0db4e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ebd0fba3-4228-444a-8a8c-a62f6d45470f" />
+          </association>
+          <association Id="d1220a87-a700-4383-ac77-82878eafa53c" isDerived="false" sourceEndRoleName="Прийняття рішень" targetEndRoleName="Рішення про постачальників" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="21c84221-869c-4833-82a9-9d95619438de" LastKnownName="Рішення про постачальників" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="452d92f9-5dbe-4524-b90d-68655a45e4fa" name="Прийняття рішень" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0f2822c7-8e3c-4ae7-b813-815275b7cf11" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0c04d15f-d40d-4ced-8b9c-303c1feb6320" name="Рішення про постачальників" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b8deeb54-7321-4c18-b191-5fd21da01bf2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e71c395c-2ca2-48af-8684-d010463aae7c" />
+          </association>
+          <association Id="d347d080-d19d-4962-8b9f-1938f3641fe5" isDerived="false" sourceEndRoleName="Прийняття рішень" targetEndRoleName="Рішення про звільнення" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b75abd6e-c382-4f77-8d5d-da8235eb33ba" LastKnownName="Рішення про звільнення" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="72275a91-f225-472e-8bab-94a5045955cb" name="Прийняття рішень" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="57feecbd-8c8b-40f8-a46d-80f7f954973f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="279252ef-cbc6-45e8-9a4a-c3297446f659" name="Рішення про звільнення" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f4ee5824-cf5e-4ee3-8b97-55f1b50bdbda" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0eccdb6e-ea36-4af5-b8f0-f24df58bf6ca" />
+          </association>
+          <association Id="b23420a2-9193-48e6-9ca3-838bafcef401" isDerived="false" sourceEndRoleName="Прийняття рішень" targetEndRoleName="Рішення про закупівлю товару" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="112531e6-2887-49d1-a479-7f2dc57359a2" LastKnownName="Рішення про закупівлю товару" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5bc260ac-5b28-4c87-9208-e4b2d3556067" name="Прийняття рішень" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b768d9ad-81b0-4879-8b7d-59dbc8a290a9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e9c80c7d-d0f4-4136-ac2c-9b08edd25ba8" name="Рішення про закупівлю товару" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8d309d27-f9ff-4133-9ba7-c6339e941728" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bce31587-7633-4672-a814-65dba642ee16" />
+          </association>
+          <association Id="eb378ef7-0b0e-4906-a8da-a30d54a460f3" isDerived="false" sourceEndRoleName="Прийняття рішень" targetEndRoleName="UseCase3" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b53c7abf-5750-4b96-acfc-b094e05c665a" LastKnownName="Рішення про продаж товару" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="87538804-3d6f-40eb-a9fd-b94386fded55" name="Прийняття рішень" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="446160e8-92e2-43c7-b5dd-e7f7b3507b6e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5a37bbf1-2ee0-4411-a71e-61840cf849c5" name="UseCase3" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d38cb61e-bc9b-4e5c-a3da-b59a3695a4e0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6e518201-720a-4b69-8dc8-77fb3c24bf61" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="30dbc605-bc88-4a06-bf02-6b7c0acfb0cd" name="Внесення пропозицій" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e3da1ee4-07c1-49ff-9da3-94df512069ca" />
+        <targetEnds>
+          <association Id="a689cf5a-80f2-4c80-89ee-5e6132f9ed6e" isDerived="false" sourceEndRoleName="Внесення пропозицій" targetEndRoleName="Внесення про звільнення" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="28438472-375d-4a19-b639-79165e06b915" LastKnownName="Внесення про звільнення" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a021c052-44db-46d6-8664-af66a2a43208" name="Внесення пропозицій" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="54dcc8c1-2187-4ad2-9b47-738e12920c5e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="55432fe3-23d9-4d1a-8ba5-32fac0e2c402" name="Внесення про звільнення" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="507c409b-78e3-4029-9f4e-535103aacdcd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="aa634528-1d29-4b9f-8f65-b7586eb12007" />
+          </association>
+          <association Id="44d8feb3-c407-4c4d-b92d-589113561d96" isDerived="false" sourceEndRoleName="Внесення пропозицій" targetEndRoleName="Внечення по продажу" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="431252f4-8698-4fa3-8718-bc07ff6850c6" LastKnownName="Внечення по продажу" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ceb7dfa9-c81e-433c-8555-3bf4f54ce9dd" name="Внесення пропозицій" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bde538ba-2d7b-4a29-bf8f-83f5aa6e549e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e5b7be66-a198-422e-9a2c-15abb16c0083" name="Внечення по продажу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3e871924-c1bb-424e-ac16-1bc45e362045" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c8057389-fd0c-4640-9111-4548c2743880" />
+          </association>
+          <association Id="b7a7008d-ba52-4ea0-b0d2-b2d50dc064b4" isDerived="false" sourceEndRoleName="Внесення пропозицій" targetEndRoleName="Внечення по закупівлі" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f7fe821e-5001-46d1-92ff-2ede44ea236b" LastKnownName="Внечення по закупівлі" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7d551f4c-9d58-4777-8b80-cb77657f828e" name="Внесення пропозицій" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0aacf31a-a781-45ab-9749-9610e8293b05" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8b9092ea-139c-46e2-acc9-151b581f1521" name="Внечення по закупівлі" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c8601a29-4290-47c5-9e66-dd4c0290ee51" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4c6015f3-46be-4cc8-a788-4b915c8a3be0" />
+          </association>
+          <association Id="d3857b39-077c-4cf6-b22d-592270b343bd" isDerived="false" sourceEndRoleName="Внесення пропозицій" targetEndRoleName="Внечення про постачальників" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="85945d6d-e4f5-46f3-8066-b81f1e3b04de" LastKnownName="Внечення про постачальників" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c547d7ef-49f4-46c7-9fbc-6bd632cba4bb" name="Внесення пропозицій" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0caaffea-3327-46c2-ba1f-9bcc185508d2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2cd15d53-f516-40a4-b749-2dc530f0e4ea" name="Внечення про постачальників" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d30114d0-7d81-4721-953c-7aea6fd0e83a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="647fc278-ed02-49c3-8c51-a2759a1d7c9b" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ab7a2904-5071-4a85-8d88-2e6e33dfda9d" name="Введення вхідних документів" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="62a93257-76fb-46e6-bc9c-46ca7fdd5a37" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="a85288bb-0220-4af4-ae5f-88247098c243" name="Голова відділу" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f1911853-6c88-4f82-a0cd-96aad4ff434e" />
+        <targetEnds>
+          <association Id="3526b5d5-4966-4059-be3a-7a4c7bc7e415" isDerived="false" sourceEndRoleName="Голова відділу" targetEndRoleName="Перегляд звітів з продажу" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f724ad87-fc2d-4c9d-a356-a0edf0d04ff5" LastKnownName="Перегляд звітів з продажу" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="06d102f7-17e3-4853-b1e7-d30a1c919321" name="Голова відділу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ae83df9f-d2b4-4c9a-8a07-29f0d8aaf754" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b76d94c4-03e2-429d-ac8b-ee9eeecfa7f4" name="Перегляд звітів з продажу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4f92dd13-3601-4503-8a9a-a7bab69b36fc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d615a1bd-569d-4713-bd79-bea3e3bf20cf" />
+          </association>
+          <association Id="7632aeac-668e-4ab1-83b0-1790abcccb07" isDerived="false" sourceEndRoleName="Голова відділу" targetEndRoleName="Внесення пропозицій про покращення" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="53aaffc6-1095-48eb-a86a-cff9fa4a38b9" LastKnownName="Внесення пропозицій про покращення" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c70252e9-ad72-43aa-b0ec-d8e15cdabb98" name="Голова відділу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3c8f12c7-6f19-4158-8178-920b8bc60abf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8d05be26-22f6-4d40-9a7e-176bd0b668b5" name="Внесення пропозицій про покращення" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3f59dab6-4506-425f-a88a-1d60ce62abcf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7bc3eda8-56df-4541-ad57-83a060e6cea0" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="2631e290-a982-44c9-a674-2980bb0134b8" name="Маркетолог" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5bfc791c-a25e-4ab0-b421-dbf5f81e0785" />
+        <targetEnds>
+          <association Id="2508760d-628a-45d3-9419-0c52dd1d0817" isDerived="false" sourceEndRoleName="Маркетолог" targetEndRoleName="Перегляд звітів з продажу" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f724ad87-fc2d-4c9d-a356-a0edf0d04ff5" LastKnownName="Перегляд звітів з продажу" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="61926032-dcca-44dc-8e12-6b26a3fa85d5" name="Маркетолог" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ea7cc4b1-139d-41fe-afac-7c9b99cbe61b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bc8793b3-97b0-4c74-8795-906fc3d75e84" name="Перегляд звітів з продажу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="73abf78c-c30f-4d53-8e87-e6bfcb900964" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="acefb2bd-2dd4-4648-9051-2821d0e5bcae" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f724ad87-fc2d-4c9d-a356-a0edf0d04ff5" name="Перегляд звітів з продажу" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="92dbf7c0-afa6-4fc2-a1e6-23fefcf8e42d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="842e2d90-18c6-4933-91ca-25ef860ad6a6" name="Менеджер продажу" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a030c952-54b6-40a9-851c-180a7b07d90b" />
+        <targetEnds>
+          <association Id="b68ebe79-0c74-465e-bafa-b0e601274899" isDerived="false" sourceEndRoleName="Менеджер продажу" targetEndRoleName="Заповнення прибуткової накладної" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5d4bbc71-aba6-48a7-a334-132ec0a6bf3a" LastKnownName="Заповнення прибуткової накладної" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="525ad986-f894-4db8-bd6c-ba6e256348ac" name="Менеджер продажу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d8bde469-8ef3-4dc1-9372-8de622139f60" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6789ef5e-947b-428e-8f74-2ef13503bb40" name="Заповнення прибуткової накладної" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b1dd1a1a-2a04-4eec-bfd1-7fe2d4a5677f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="76fc399f-4cf4-4434-a4dc-a4343ade47ee" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5d4bbc71-aba6-48a7-a334-132ec0a6bf3a" name="Заповнення прибуткової накладної" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9f4fdde2-6691-466e-82e8-7705c014f0e4" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="877d8c2b-1675-4aa0-aadd-dd39e5919543" name="Голова відділу&#xD;&#xA;" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5c6a7a1a-774e-489e-b007-d11a74b72fa0" />
+        <targetEnds>
+          <association Id="73e26a82-2d55-4fa6-9217-97d8daf53920" isDerived="false" sourceEndRoleName="Голова відділу" targetEndRoleName="Перегляд звітів з продажу" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5d858006-ddd4-4042-a9ab-937f852ca613" LastKnownName="Перегляд звітів з закупівлі" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="63620743-e1c1-466a-8198-4bbc8e6a91ba" name="Голова відділу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="18e72aa2-9197-45ae-8c90-4af4a53068fb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2d292776-e088-4f33-b07d-709c3dc51e8f" name="Перегляд звітів з продажу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bcbcc2a3-db31-4faa-bb6b-ae5dd9fd4cb7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3b99b80b-ab1f-42ec-a467-76e0d303b8fc" />
+          </association>
+          <association Id="600aa02c-1244-45ac-96e1-cf5f9ba75863" isDerived="false" sourceEndRoleName="Голова відділу&#xD;&#xA;" targetEndRoleName="Внесення пропозицій про покращення" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="604ff718-7f1e-4b13-95c0-050c9e1dbb97" LastKnownName="Внесення пропозицій про покращення" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cfbe1434-e15b-4287-89c3-6db7038d9422" name="Голова відділу&#xD;&#xA;" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5cee19d9-257d-46a5-b3f0-29263fc257d2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="546d3e9f-8974-43c9-88ae-622c53a49850" name="Внесення пропозицій про покращення" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2e179861-d604-47c2-8f56-4b28ee032d02" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5c820e38-7e53-4ed3-80a6-a7dab1025e87" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="9d659aef-b01b-498e-ae91-92584d32ec5f" name="Маркетолог" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="dcae0be0-9fc4-4431-97f0-f2137d51c813" />
+        <targetEnds>
+          <association Id="1f93c4ba-a0b4-4efd-83d8-5b8f91601027" isDerived="false" sourceEndRoleName="Маркетолог" targetEndRoleName="Перегляд звітів з продажу" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5d858006-ddd4-4042-a9ab-937f852ca613" LastKnownName="Перегляд звітів з закупівлі" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d3d0b67e-2a05-4bf2-b6c3-a191856f64f7" name="Маркетолог" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="28ef959b-d3f8-448b-91aa-1613b7f56b46" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="338e8d81-30c3-4164-9eb3-998970417f3d" name="Перегляд звітів з продажу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e834970d-edf4-447a-9d44-3df16608c465" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="acfe0789-5e55-4723-a930-e7ef24f3fa83" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5d858006-ddd4-4042-a9ab-937f852ca613" name="Перегляд звітів з закупівлі" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="24d8ed62-d863-4f2a-9b88-c0d7a61f7bbf" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="0cdb376f-4665-423b-a01e-3f95aff247bb" name="Менеджер закупок&#xD;&#xA;" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b859ee13-76c9-4962-a9be-4cb26f871e26" />
+        <targetEnds>
+          <association Id="82c2e231-8dcd-4734-b3e1-e5b060042297" isDerived="false" sourceEndRoleName="Менеджер продажу" targetEndRoleName="Заповнення прибуткової накладної" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b4666a13-1282-42ff-ab01-3dcd6bded279" LastKnownName="Заповнення прихідна накладної" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9102af95-6727-44e5-88c0-f4ab935717e9" name="Менеджер продажу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c1f0c53c-989f-4f69-9f3e-d15194d83eda" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c7b11a46-0d4b-44ba-918c-afee76c790f7" name="Заповнення прибуткової накладної" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="59f9b5a1-6281-4787-96cb-ce8c830e101d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="09644dd6-7f0f-4b0d-9d1e-8cc1fbe0294d" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b4666a13-1282-42ff-ab01-3dcd6bded279" name="Заповнення прихідна накладної" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f529ef8e-f12e-4f9a-9317-0f35b7b73d70" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="90ba9e27-46a7-4509-8bbf-f2b1ec4f6783" name="Голова відділу" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0ade73bc-0871-49c2-97b0-f25b75a1cc23" />
+        <targetEnds>
+          <association Id="45143133-a47f-4709-896b-e6352ead6906" isDerived="false" sourceEndRoleName="Голова відділу" targetEndRoleName="Заповнення наказів про рух контингенту" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6794a785-a519-41d6-9bfa-af96ab35a2d9" LastKnownName="Заповнення наказів про рух контингенту" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="396c7667-1edd-4ca8-8839-d8c50140929b" name="Голова відділу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="036c4705-20af-401c-a99a-88b1b2965ab7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cae13d6f-ff51-4876-9677-7c5e96cc92e7" name="Заповнення наказів про рух контингенту" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1e0437af-4dff-4543-8b40-7816ffaaaa76" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c2efacf2-9509-4ddb-a4ae-5b2e83a0bd06" />
+          </association>
+          <association Id="9145518d-064a-4a6a-ac20-66ff6f534363" isDerived="false" sourceEndRoleName="Голова відділу" targetEndRoleName="Внесення пропозицій про покращення" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3f4bf746-7ea5-4b7d-b484-1fd1eb08ebf5" LastKnownName="Внесення пропозицій про покращення" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d6234c92-b997-4d09-8b4d-437eb1ceccb5" name="Голова відділу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ab2f924d-1057-4c70-ac2f-506242d01c8c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0a88c6a2-9f5e-4253-bddd-c0b60f634cd0" name="Внесення пропозицій про покращення" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e524dacb-405c-4989-ad4e-df524387a763" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="00632d48-5bc7-4f6c-bfed-ff090e6ee244" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="abe9b0d3-0401-4c5e-a0cf-1217d30dc9ed" name="Заповнення журналу оліку працівників" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f35d8705-260c-468f-aaf3-cc439b766bb6" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="369f6a3a-fb60-44c0-aff9-2e26c6772d31" name="Менеджер відділу кадрів" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="af26a2ca-b9ab-45c5-a43b-12916fa7cf77" />
+        <targetEnds>
+          <association Id="d3c180cc-a4f0-4c58-b09d-31f184ab6266" isDerived="false" sourceEndRoleName="Менеджер відділу кадрів" targetEndRoleName="Заповнення журналу оліку працівників" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="abe9b0d3-0401-4c5e-a0cf-1217d30dc9ed" LastKnownName="Заповнення журналу оліку працівників" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="10b6b276-8af1-487d-a0b5-a11c73de3da9" name="Менеджер відділу кадрів" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5562af2e-e2c2-4973-bad4-43f36c1de95b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="14d72fc2-d67e-4280-825b-da8858338bc7" name="Заповнення журналу оліку працівників" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6db2ec0e-c0b8-471f-be1b-4f5cc2238402" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a7ed6c31-2116-4bc3-888f-ce87bedf1360" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="2de24bc1-fb67-42bd-929b-0ccd33e75d45" name="HR" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="359e4741-c874-47b6-a933-8f386087da84" />
+        <targetEnds>
+          <association Id="556acbc0-d21a-467a-afa3-4ea880bc28fe" isDerived="false" sourceEndRoleName="HR" targetEndRoleName="Заповнення резюме" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5c88d064-c101-4024-8d2b-b102877adcce" LastKnownName="Заповнення резюме" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a5365cdf-2a68-4547-8446-3e15768333a3" name="HR" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b8b860b8-fa01-4990-9cf2-83cd1eb8307f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aaf5b96c-c332-4feb-9afd-2d369dc48d09" name="Заповнення резюме" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="160d0fb2-6cfc-4138-b76a-509caa101eb4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f669bcdc-bcce-4b8b-aa15-4809d63237e8" />
+          </association>
+          <association Id="eba573de-3020-44cd-9c21-19243134367c" isDerived="false" sourceEndRoleName="HR" targetEndRoleName="Перегляд резюме" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e56fd96e-e9bf-4dd2-8c73-eac3e7dba50b" LastKnownName="Перегляд резюме" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e1c143c7-b32c-4ef4-af7e-7b0779b6bc55" name="HR" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7e88a529-47fe-48bc-944f-feea43480997" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0d5ab10b-2577-4b21-89ff-6a582ca7145a" name="Перегляд резюме" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d0e54a76-6f38-449e-a425-a5745ee119a7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="85ef641f-6f0e-4230-b5e1-ba2cc9d587b9" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6794a785-a519-41d6-9bfa-af96ab35a2d9" name="Заповнення наказів про рух контингенту" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8ec04952-3c3b-4642-9436-54599f85b7a0" />
+        <targetEnds>
+          <association Id="29e95fe4-c713-4c94-bf8a-fd066ae4c6a7" isDerived="false" sourceEndRoleName="Заповнення наказів про рух контингенту" targetEndRoleName="Заповнення наказів про відпустку" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a242d1d4-93e9-4cfb-b15f-7f32e5425376" LastKnownName="Заповнення наказів про відпустку" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bd6defc1-9257-4982-82d0-6516e455070d" name="Заповнення наказів про рух контингенту" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ebb95bf1-0e3e-467c-b9f6-b5b91b28e5bb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1759b6a1-953d-4724-8cb8-d8fd5522fbfb" name="Заповнення наказів про відпустку" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c8f4664d-41a5-4fa2-89a1-fe04cb16a7bf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bbb24914-826b-41d4-bf71-c2023f6eba0a" />
+          </association>
+          <association Id="2cff1d4e-052d-4eca-8c3c-a9669231482c" isDerived="false" sourceEndRoleName="Заповнення наказів про рух контингенту" targetEndRoleName="Заповнення наказів про звільнення" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c566a031-4d19-46b6-a0db-e52b3ab2e133" LastKnownName="Заповнення наказів про звільнення" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="755d9da4-3721-4cf8-af2b-85babe1f3d0d" name="Заповнення наказів про рух контингенту" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2379fd79-a1a8-483d-9e69-55891336f85a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="428c42a7-bba0-4975-86da-9b06291676eb" name="Заповнення наказів про звільнення" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="238e7e0e-88f8-4aa8-901c-3687ab2ccbdf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bfc162de-00cb-4707-8a3e-d61a26c2ce0e" />
+          </association>
+          <association Id="2116d5cb-8605-4c73-8f7f-c5bdd665ff8d" isDerived="false" sourceEndRoleName="Заповнення наказів про рух контингенту" targetEndRoleName="Заповнення наказів про зарахування" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2f6ead4d-b0a0-4376-90ce-414f59f4ed60" LastKnownName="Заповнення наказів про зарахування" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a496d090-75bd-4225-a43c-fcdba0ea6df8" name="Заповнення наказів про рух контингенту" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="626df3bb-73ca-4611-b5a2-230f36cd05ee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0d2ce275-d2e5-418d-80fc-db6359205f43" name="Заповнення наказів про зарахування" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="af25afe5-64ad-4210-b21a-685e25c0c5bf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5c61e560-ed9b-4304-a3c0-55ac34ec9889" />
+          </association>
+          <association Id="50f5c55e-2075-4048-b777-cab2cb3877bb" isDerived="false" sourceEndRoleName="Заповнення наказів про рух контингенту" targetEndRoleName="Заповнення наказів про лікарняні" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="db3c2fcf-ea87-48d5-8fb0-3c1782fec332" LastKnownName="Заповнення наказів про лікарняні" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4485d164-a4fb-4ee5-bec4-43911f7dced5" name="Заповнення наказів про рух контингенту" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fff15bb7-6cd7-4a51-b91e-835e5febd2cb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="36fb4350-99e0-484a-b026-55ac7c773ebc" name="Заповнення наказів про лікарняні" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7f59a66f-3957-4a4c-bc77-4ad18c147649" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2e548e2c-d32b-4b6a-946c-3d2e2c85fe4f" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a242d1d4-93e9-4cfb-b15f-7f32e5425376" name="Заповнення наказів про відпустку" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9f8b8efd-d1d9-48dc-a829-3df44d0889df" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2f6ead4d-b0a0-4376-90ce-414f59f4ed60" name="Заповнення наказів про зарахування" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5106bbff-6374-4c46-aae3-f8a6c50b2230" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c566a031-4d19-46b6-a0db-e52b3ab2e133" name="Заповнення наказів про звільнення" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ae13923c-d300-4276-9aca-45d4ce3c29cd" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="db3c2fcf-ea87-48d5-8fb0-3c1782fec332" name="Заповнення наказів про лікарняні" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8f63cd9c-0f76-4bc4-a849-7bcf60d07a60" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5c88d064-c101-4024-8d2b-b102877adcce" name="Заповнення резюме" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="dd3a4ba9-b79c-40ef-a97e-36c7cad1aac8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e56fd96e-e9bf-4dd2-8c73-eac3e7dba50b" name="Перегляд резюме" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ddde9664-22b5-442c-b51f-bc3324a2b7f5" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f070aa60-481a-43fe-87ac-47cbfd05f7f6" name="Голова відділу&#xD;&#xA;" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8e726abf-2138-4bb5-8a6b-4902f35d169e" />
+        <targetEnds>
+          <association Id="aaa4b0c2-3927-41db-924b-4fc75d31f62e" isDerived="false" sourceEndRoleName="Голова відділу&#xD;&#xA;" targetEndRoleName="Перегляд звітів з обслуговування" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d9432bd5-7fe6-4e32-8ad9-9a24e9f3bf96" LastKnownName="Перегляд звітів з обслуговування" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="46fa9d9a-ce17-4e7d-b6e8-8da32388e146" name="Голова відділу&#xD;&#xA;" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="66ec9e75-eb8f-4186-8ad4-669b78ae2ec8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="79e76052-6677-40a1-b707-8dd3dbfd3ddf" name="Перегляд звітів з обслуговування" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="58e22e56-2f87-4c7d-900f-5472798de599" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="85a76185-eb32-4baf-9477-41e9843500e5" />
+          </association>
+          <association Id="9e42c0c9-475c-4ace-9aea-eb50dbcd2c42" isDerived="false" sourceEndRoleName="Голова відділу&#xD;&#xA;" targetEndRoleName="Внесення пропозицій про покращення" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bdd2e47f-e850-4326-b8ad-a0281a732fbb" LastKnownName="Внесення пропозицій про покращення" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d74b237f-32aa-4463-b7f3-30701aed7fd0" name="Голова відділу&#xD;&#xA;" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="db7c9117-8e31-4494-883c-65a10d56ba2e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="22c9d1b9-fcac-415e-96d5-e99f99dcafd2" name="Внесення пропозицій про покращення" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4067e9bf-4dd7-432c-9b5e-5781feeb30a5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cab14a59-008e-4a3c-83ce-dcf62b8606a2" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="52ea16f5-4761-41c8-a136-e29ca3a4a2c3" name="Заповнення   журналу обліку працездатності обладнання" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c56cc125-fd6c-4b1a-9b79-55338ae899e9" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="253077ff-4286-4d70-b094-38e1dbcc80cb" name="Майстер" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="11cb545b-1639-4e67-8b2f-23d74a9218ee" />
+        <targetEnds>
+          <association Id="832f57b3-2fa1-4f34-88ca-36e0f031c7fc" isDerived="false" sourceEndRoleName="Майстер" targetEndRoleName="Заповнення   журналу обліку працездатності обладнання" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="52ea16f5-4761-41c8-a136-e29ca3a4a2c3" LastKnownName="Заповнення   журналу обліку працездатності обладнання" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3b454ce4-2e88-4eba-b9ab-b67b688cdeef" name="Майстер" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8c926f1f-0340-49de-9819-d5bc1b9e9cbe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8116000b-6878-42c7-9cca-3b71434b3705" name="Заповнення   журналу обліку працездатності обладнання" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="61eb4887-e1b1-44a3-9e51-b8898e8c86fd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a50f1ae5-988f-4546-9615-a175446c14bc" />
+          </association>
+          <association Id="8ff8d20b-80d3-473c-84a5-7e6cc3a0d43b" isDerived="false" sourceEndRoleName="Майстер" targetEndRoleName="Заповнення  журналу обслуговування техніки" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2798cb71-236e-49d4-bf70-278605a91e9f" LastKnownName="Заповнення  журналу обслуговування техніки" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a547fc35-194c-48d4-8dbf-4598906456c5" name="Майстер" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a2d28983-354d-4033-aaaa-de898f92d922" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6ecb5e31-35f5-4cd3-a095-e91b77054e5b" name="Заповнення  журналу обслуговування техніки" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="25dca66d-9f23-4102-a85d-659ff4c9c73e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2b2af6a0-1c87-4de7-bf6e-8aae2b563e46" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d9432bd5-7fe6-4e32-8ad9-9a24e9f3bf96" name="Перегляд звітів з обслуговування" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0c612dde-142f-4e7d-9255-3b0b9d788451" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2798cb71-236e-49d4-bf70-278605a91e9f" name="Заповнення  журналу обслуговування техніки" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b325f620-a9e3-4cf5-a61d-48484cd508ca" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="db5e6f85-0271-454c-9ba0-5166d8f5e2a5" name="Голова відділу" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7b7c61f6-fe72-459b-bd14-908789836bec" />
+        <targetEnds>
+          <association Id="989b893c-d533-4242-ad82-603e4210e7b0" isDerived="false" sourceEndRoleName="Голова відділу" targetEndRoleName="Перегляд звітів з продажу" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b51e57f2-3613-413d-8d59-701f1aef3676" LastKnownName="Перегляд звітів з сайту" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="02e80e37-fa8d-4449-be7c-e10d8e19a94a" name="Голова відділу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f9dd992f-63ff-4ea8-8390-0b0bbd4b28cc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8aeedcf3-9773-4f72-976b-5ac9ab61dde7" name="Перегляд звітів з продажу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="89559cfd-5d5a-45e0-af76-c373798b3e3e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6a6a7b02-803a-40d9-bdd6-0c1ade2ab967" />
+          </association>
+          <association Id="93946204-4d2d-4687-aa0d-d11a9a5d33f2" isDerived="false" sourceEndRoleName="Голова відділу" targetEndRoleName="Внесення пропозицій про покращення" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e1f21a23-6a72-4f57-8e29-e6d82b23e4ee" LastKnownName="Внесення пропозицій про покращення" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8b012508-e671-4279-bd9c-171b0c0cc741" name="Голова відділу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="114d6b51-c164-4bdd-b8aa-8b4825040ee9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="73079080-1b00-418a-8467-b6aedd436c07" name="Внесення пропозицій про покращення" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e96d3078-7196-4402-83c2-23811642c3b2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c9c9a3b7-a11f-454e-a99c-140b1fc5b844" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="7692cfd1-6cf1-4828-83b6-0115639741d7" name="Системний адміністратор" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3997738d-8f73-49db-a9ee-d40312b9033e" />
+        <targetEnds>
+          <association Id="34dc78cf-32c5-49ab-ae7b-dd428f58160b" isDerived="false" sourceEndRoleName="Системний адміністратор" targetEndRoleName="Заповнення журналу сайту" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ee8de17d-3c03-45b8-9fdd-74d4603371a8" LastKnownName="Заповнення журналу сайту" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cec41e24-1ec5-4149-ba45-f7a55483c4b8" name="Системний адміністратор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6eb18acd-ac96-45a7-b61f-1d17e03ad296" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="008b6b92-fd41-4363-afc9-d9a0b07f30e4" name="Заповнення журналу сайту" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ff13f1a0-04e4-45f9-8a8e-66b219cc0cbc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="83962b6b-e1a2-46e2-bba0-51ac222edc0a" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="0d4708cb-d1dc-4dcf-939f-a9a7e3d87b72" name="Програміст" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c98d70ac-b876-49f7-9a88-76574780adeb" />
+        <targetEnds>
+          <association Id="20469b0b-0aec-424e-a088-286260b63bc8" isDerived="false" sourceEndRoleName="Програміст" targetEndRoleName="Заповнення змін до сайту" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="48666ebe-f286-437c-be6f-c97b8616eb04" LastKnownName="Заповнення змін до сайту" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="33df8020-097b-4408-888a-caa76ceb11af" name="Програміст" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b816c2a9-6b87-46f4-a0aa-570d79743df6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="497aa28c-5667-4f07-af2d-1884615af4db" name="Заповнення змін до сайту" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="765d37d0-09be-4349-805a-43039e379ae2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2668da8b-1c35-4943-8d86-2ad08bb5dfb9" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b51e57f2-3613-413d-8d59-701f1aef3676" name="Перегляд звітів з сайту" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ac9e1dc3-be65-4dd5-9ebf-e370a8396641" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ee8de17d-3c03-45b8-9fdd-74d4603371a8" name="Заповнення журналу сайту" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7d45738f-2508-4778-844c-84fef62e5963" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="48666ebe-f286-437c-be6f-c97b8616eb04" name="Заповнення змін до сайту" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="aa7baf18-8fbf-4e9e-9958-5d27a70e82dd" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="ced72a90-ceaa-454b-a643-1e0460d56896" name="Голова відділу" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e1b9be08-11a2-4020-b7cb-09636fada517" />
+        <targetEnds>
+          <association Id="1b573b22-f031-46ad-b2c4-38855d8ec757" isDerived="false" sourceEndRoleName="Голова відділу" targetEndRoleName="Перегляд звітів з продажу" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e9197a9b-f7dd-4bd5-8bac-d452e791e2f8" LastKnownName="Перегляд звітів з юридичних послуг" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ed9d87af-965c-49d0-bafa-f3de35751ded" name="Голова відділу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e76261c4-83d8-4faf-bdbf-4bc18449f2ff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7cace700-c22f-4422-badf-9da9c2318a0d" name="Перегляд звітів з продажу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="85c00f01-1b84-4e38-97e6-f446071815ef" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f3620989-13b3-4240-b9ad-9b6b8acb8441" />
+          </association>
+          <association Id="79d8643e-372d-4c41-af31-908179790b67" isDerived="false" sourceEndRoleName="Голова відділу" targetEndRoleName="Внесення пропозицій про покращення" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7875cd6f-86ba-478b-928b-ac156d598969" LastKnownName="Внесення пропозицій про покращення" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="43b7ae9a-6b43-4dc6-80dd-6317970c8588" name="Голова відділу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8c4f55e1-34cc-41a3-b35a-35d0d3e33823" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e233e3d6-890e-48fa-9cb2-904b74aab9b9" name="Внесення пропозицій про покращення" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f2869931-9d27-4236-81a5-4f3e69be030c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4e1b8050-7e91-40ca-91cc-9ef1667efca4" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="055c33ec-f5c0-46b5-b4f2-2ac692a452e0" name="Юрист" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9f9881d2-dac5-489c-963a-08862573b025" />
+        <targetEnds>
+          <association Id="4c713e69-271d-4546-8a41-39d7c37bf106" isDerived="false" sourceEndRoleName="Системний адміністратор" targetEndRoleName="Заповнення журналу сайту" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b5c3c6fb-1a3d-44b1-bd98-df6eea40fe60" LastKnownName="Заповнення журналу юридичних послуг" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a5d648f2-845f-4a01-b5e5-983eb50fc5e0" name="Системний адміністратор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="61af5f5d-507d-440a-a58d-cac7cbeb0c1a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c06cc135-9c30-43b9-8def-ead946321693" name="Заповнення журналу сайту" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="957e49a1-133f-4c27-b5ef-ba7a78ebe933" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d4b2a888-8a8e-44cf-991f-80b489e57af9" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e9197a9b-f7dd-4bd5-8bac-d452e791e2f8" name="Перегляд звітів з юридичних послуг" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="717667b5-3125-4ed5-995b-324d6df48155" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b5c3c6fb-1a3d-44b1-bd98-df6eea40fe60" name="Заповнення журналу юридичних послуг" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f8b0a111-cdbb-43b2-ad4b-561d2f69f4c4" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="a15a01dc-5a5f-4e39-aeaa-3c3f9ac2960c" name="Кур'єр" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ca05daa5-622d-4677-9473-325711a90df6" />
+        <targetEnds>
+          <association Id="8bf03151-daf2-4ba1-aa79-18994f341064" isDerived="false" sourceEndRoleName="Кур'єр" targetEndRoleName="Заповнення даних про відправлений товар" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b168b70a-9995-4b45-8ea0-ce34785e653a" LastKnownName="Заповнення даних про відправлений товар" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="496d8d5a-7524-42dc-a910-c1811927e23a" name="Кур'єр" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="843dc4c0-0012-4b80-8642-3197c5a18a3b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c48819ef-306c-476c-b2e2-1c0d6b6bcb43" name="Заповнення даних про відправлений товар" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="149a75ae-6272-4a71-9654-d06cca77f767" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c72d464e-74c0-45aa-a71c-2ee76b0ee1b8" />
+          </association>
+          <association Id="8d1c7dfe-ed0e-4468-ab0e-f56371566081" isDerived="false" sourceEndRoleName="Кур'єр" targetEndRoleName="Заповнення даних про пункт призначення" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b04e48f5-c40f-4539-9950-0bfb0e791627" LastKnownName="Заповнення даних про пункт призначення" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2283ddc7-916c-4263-9a48-9a784717b70b" name="Кур'єр" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="abafb3f5-b509-4a95-a133-a2324b60574e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="63b160e3-9538-483b-b429-012fbf4e163a" name="Заповнення даних про пункт призначення" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="aa2e767f-7513-4429-aeec-f7f3835041c6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="93294880-efd6-429d-8eb6-82e92f01ba6a" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b168b70a-9995-4b45-8ea0-ce34785e653a" name="Заповнення даних про відправлений товар" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c41f8d55-28dd-4f57-949f-17907e94b45d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b04e48f5-c40f-4539-9950-0bfb0e791627" name="Заповнення даних про пункт призначення" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ccf8fa81-0ce8-4936-8fcb-7ffc5cc91da5" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9c3260bc-56d5-4259-a458-625473446ed0" name="Перегляд звітів про доставку" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="188eed46-504d-4b2c-b271-ac673e5925cc" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="8fa9e140-27eb-4897-8c7c-0359ab60a160" name="Голова відділу" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ee80b357-ad70-4cec-a3dd-372c47e68b1c" />
+        <targetEnds>
+          <association Id="5fa8f65f-f81c-4e3e-8657-2939fe8d438f" isDerived="false" sourceEndRoleName="Голова відділу" targetEndRoleName="Перегляд звітів про доставку" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9c3260bc-56d5-4259-a458-625473446ed0" LastKnownName="Перегляд звітів про доставку" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3d20739c-9cc8-45fc-bbbb-6d64338a1158" name="Голова відділу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="499eaf9b-7998-49d7-b1af-ac572c55dbb8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0807581f-1b37-4d82-879c-b64cbe7ade04" name="Перегляд звітів про доставку" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="693514a3-baad-4dd8-9158-893f71327af1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="909b6164-becc-4fae-9637-ee0092cdc43d" />
+          </association>
+          <association Id="7a751ddb-bf63-4409-9e93-ae9760158734" isDerived="false" sourceEndRoleName="Голова відділу" targetEndRoleName="Внесення пропозицій про покращення" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="901ebbcc-ee8e-41c8-8a75-3643127fe810" LastKnownName="Внесення пропозицій про покращення" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5ced3c49-1b5e-4315-ad9b-3b16b3fa2948" name="Голова відділу" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0374b0ff-d151-4216-bffd-2bcc52c83416" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4df94118-40a5-4f14-809f-dcaf7d1a516f" name="Внесення пропозицій про покращення" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3b63af74-8ffb-4aaf-bf49-3e228323b505" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="87d17e5b-72dc-4934-b13b-7be74f49a24f" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7dccd1a3-cfb5-4dbe-a240-3757e6f5bbe6" name="Рішення по номенклатурі" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4e96b541-f4fa-40e7-8197-dd9a9319a334" />
+        <targetEnds>
+          <association Id="fb2f44ec-0118-4f24-a18b-ec45c25a6e40" isDerived="false" sourceEndRoleName="Рішення по номенклатурі" targetEndRoleName="Аналітични й звіт про покращення" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="63e95c07-a854-40b1-a09a-372c9906cca6" LastKnownName="Аналітичний звіт про покращення" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ecca0f66-b890-4a74-9f91-01d0b96e1cbf" name="Рішення по номенклатурі" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5e7ea9a5-b004-4fd5-b43d-b38a6964547e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3c6a81ea-245f-4d46-b993-3dd30a165c10" name="Аналітични й звіт про покращення" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c60ef417-d1a7-4532-b9cb-cfa988e191f7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="75ea7b42-05f7-4600-9bc4-74a6c7d09954" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="21c84221-869c-4833-82a9-9d95619438de" name="Рішення про постачальників" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5624e0bc-d46a-4651-a3ab-6ffb6980f616" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b75abd6e-c382-4f77-8d5d-da8235eb33ba" name="Рішення про звільнення" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="10e16e56-5685-4781-8d98-c28c7f9dea44" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="112531e6-2887-49d1-a479-7f2dc57359a2" name="Рішення про закупівлю товару" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8d83c89a-310e-47f1-82ca-bb6f26a711d5" />
+        <targetEnds>
+          <association Id="c75a2a7d-1213-48b0-885e-85264f00e2a3" isDerived="false" sourceEndRoleName="Рішення про закупівлю товару" targetEndRoleName="аналі. пар. звіт про  закупівлю" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0faf090b-92d2-4328-bc6c-646128492a23" LastKnownName="аналі. пар. звіт про  закупівлю" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="19191419-ea5a-465f-8134-3ea1b3864c92" name="Рішення про закупівлю товару" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b37ebfa6-d5e6-4cfa-8de8-256eb59fc0cf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="91fd12af-831d-4422-a2d1-127e7ea4fb6a" name="аналі. пар. звіт про  закупівлю" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="730e02f2-9ea1-4898-83ff-ebc8044a0cee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="90ef5b4a-258d-44c8-b38f-9af1f88be1bd" />
+          </association>
+          <association Id="7e56addb-0c21-456f-b9bf-a9200b367229" isDerived="false" sourceEndRoleName="Рішення про закупівлю товару" targetEndRoleName="перегляд пропозицій" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e88945e1-7be5-4e4e-a70c-2f9ed8be444b" LastKnownName="перегляд пропозицій" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e687e1ee-0c06-4643-ae10-12e129d77f57" name="Рішення про закупівлю товару" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="570f5e0e-ed9f-4362-9b70-417c3a46850f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b4709f5b-2139-4633-a3eb-e8f3bcc53a6f" name="перегляд пропозицій" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6ebcdb39-4bde-499e-911e-69d29dbd79be" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="49612b83-21c8-4ec9-8e10-3547e5fec58b" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b53c7abf-5750-4b96-acfc-b094e05c665a" name="Рішення про продаж товару" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9c3ad5c5-0a13-40ec-afb0-76aa6c569d38" />
+        <targetEnds>
+          <association Id="e37c076d-9b7a-41e9-9b46-aa646d7bb066" isDerived="false" sourceEndRoleName="Рішення про продаж товару" targetEndRoleName="аналі. пар. звіт про  закупівлю1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="46683b57-bb98-4f83-819b-d2c2919fdf7d" LastKnownName="аналі. пар. звіт про продаж" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="19dd22ef-edc3-4484-9017-5858306ddb50" name="Рішення про продаж товару" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3b640c18-e888-4e18-b8d3-bfd99a61e443" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8d75f1d3-dd74-45bc-a891-39f8184901ee" name="аналі. пар. звіт про  закупівлю1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9dee2188-612a-4d55-8afe-8b35aebb5136" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b2a5c0d6-3039-46d3-b70a-c5ccf5890917" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="63e95c07-a854-40b1-a09a-372c9906cca6" name="Аналітичний звіт про покращення" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d6e84663-adab-4362-9155-37d1607cf33e" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="28438472-375d-4a19-b639-79165e06b915" name="Внесення про звільнення" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e0e0c6a5-5da2-435b-8f13-c94c65a5bdd6" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="431252f4-8698-4fa3-8718-bc07ff6850c6" name="Внечення по продажу" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="606be2a3-763f-49cb-97ce-598700e94c96" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f7fe821e-5001-46d1-92ff-2ede44ea236b" name="Внечення по закупівлі" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9c47cc35-6863-4694-a3aa-769b3a98ce7b" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="85945d6d-e4f5-46f3-8066-b81f1e3b04de" name="Внечення про постачальників" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="42a80e9a-656a-45d4-91ad-fd094e8a889e" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="53aaffc6-1095-48eb-a86a-cff9fa4a38b9" name="Внесення пропозицій про покращення" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0c575846-f386-4d8c-b403-43082fee631f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="604ff718-7f1e-4b13-95c0-050c9e1dbb97" name="Внесення пропозицій про покращення" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="930e5ce3-067b-435d-84ab-0c0c67306c8b" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3f4bf746-7ea5-4b7d-b484-1fd1eb08ebf5" name="Внесення пропозицій про покращення" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f749a228-8052-4270-b885-fb6db5bc0c65" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="bdd2e47f-e850-4326-b8ad-a0281a732fbb" name="Внесення пропозицій про покращення" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="dfc26e44-3559-4fd4-b87c-c2795adbdacc" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e1f21a23-6a72-4f57-8e29-e6d82b23e4ee" name="Внесення пропозицій про покращення" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="727628e4-65c7-4ae3-89b3-2a0f50309148" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7875cd6f-86ba-478b-928b-ac156d598969" name="Внесення пропозицій про покращення" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d46a56a8-c851-438a-b864-0e0a5fafe371" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="901ebbcc-ee8e-41c8-8a75-3643127fe810" name="Внесення пропозицій про покращення" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="40f2147e-4afd-45a2-8754-2cd769a1584f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0faf090b-92d2-4328-bc6c-646128492a23" name="аналі. пар. звіт про  закупівлю" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3301a7e2-7ed7-4598-bbf9-e2c499712fcc" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e88945e1-7be5-4e4e-a70c-2f9ed8be444b" name="перегляд пропозицій" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b56da026-d396-4aee-99a1-da291b63dabb" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="46683b57-bb98-4f83-819b-d2c2919fdf7d" name="аналі. пар. звіт про продаж" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c6db87d7-c9b9-4e53-938c-235737069cd1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="8602e9a2-47ae-424b-a929-1cf6f1e4c5a5" name="ModelingProject1">
+    <elementDefinition Id="e06427c5-2745-44db-ba5f-6ee12aca60be" />
+    <profileInstances>
+      <packageHasProfileInstances Id="93c548f3-d7f5-490c-b9dd-253e9c5e1e42">
+        <profileInstance Id="8e32e2c9-1db8-4071-a991-647d45f80335" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="a35e58df-9e19-4fa2-9f6f-2770d6304bdf">
+        <profileInstance Id="a2a166e4-7beb-4c84-b2d2-f293edddbf91" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

@@ -1,0 +1,18 @@
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\COMClient\bin\Debug\COMClient.exe.config
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\COMClient\bin\Debug\COMClient.exe
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\COMClient\bin\Debug\COMClient.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\COMClient\obj\Debug\COMClient.csprojResolveAssemblyReference.cache
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\COMClient\obj\Debug\COMClient.Form1.resources
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\COMClient\obj\Debug\COMClient.Properties.Resources.resources
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\COMClient\obj\Debug\COMClient.csproj.GenerateResource.Cache
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\COMClient\obj\Debug\COMClient.exe
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\COMClient\obj\Debug\COMClient.pdb
+E:\5_2\гайдаржи\BD(1)\COMClient\bin\Debug\COMClient.exe.config
+E:\5_2\гайдаржи\BD(1)\COMClient\obj\Debug\COMClient.exe
+E:\5_2\гайдаржи\BD(1)\COMClient\obj\Debug\COMClient.pdb
+E:\5_2\гайдаржи\BD(1)\COMClient\bin\Debug\COMClient.exe
+E:\5_2\гайдаржи\BD(1)\COMClient\bin\Debug\COMClient.pdb
+E:\5_2\гайдаржи\BD(1)\COMClient\obj\Debug\COMClient.csprojResolveAssemblyReference.cache
+E:\5_2\гайдаржи\BD(1)\COMClient\obj\Debug\COMClient.Form1.resources
+E:\5_2\гайдаржи\BD(1)\COMClient\obj\Debug\COMClient.Properties.Resources.resources
+E:\5_2\гайдаржи\BD(1)\COMClient\obj\Debug\COMClient.csproj.GenerateResource.Cache

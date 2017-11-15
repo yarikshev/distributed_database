@@ -1,0 +1,10 @@
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\COMServer\bin\Debug\COMServer.dll
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\COMServer\bin\Debug\COMServer.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\COMServer\obj\Debug\COMServer.dll
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\COMServer\obj\Debug\COMServer.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\COMServer\bin\Debug\COMServer.tlb
+E:\5_2\гайдаржи\BD(1)\COMServer\bin\Debug\COMServer.dll
+E:\5_2\гайдаржи\BD(1)\COMServer\bin\Debug\COMServer.pdb
+E:\5_2\гайдаржи\BD(1)\COMServer\obj\Debug\COMServer.dll
+E:\5_2\гайдаржи\BD(1)\COMServer\obj\Debug\COMServer.pdb
+E:\5_2\гайдаржи\BD(1)\COMServer\bin\Debug\COMServer.tlb

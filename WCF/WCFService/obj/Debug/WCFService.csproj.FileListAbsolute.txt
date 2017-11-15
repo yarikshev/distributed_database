@@ -1,0 +1,10 @@
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFService\bin\Debug\WCFService.dll.config
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFService\bin\Debug\WCFService.dll
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFService\bin\Debug\WCFService.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFService\obj\Debug\WCFService.dll
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFService\obj\Debug\WCFService.pdb
+E:\5_2\гайдаржи\BD(3)\WCFService\bin\Debug\WCFService.dll.config
+E:\5_2\гайдаржи\BD(3)\WCFService\bin\Debug\WCFService.dll
+E:\5_2\гайдаржи\BD(3)\WCFService\bin\Debug\WCFService.pdb
+E:\5_2\гайдаржи\BD(3)\WCFService\obj\Debug\WCFService.dll
+E:\5_2\гайдаржи\BD(3)\WCFService\obj\Debug\WCFService.pdb

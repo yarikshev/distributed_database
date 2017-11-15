@@ -1,0 +1,16 @@
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFHost\obj\Debug\WCFHost.csprojResolveAssemblyReference.cache
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFHost\bin\Debug\WCFHost.exe.config
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFHost\bin\Debug\WCFHost.exe
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFHost\bin\Debug\WCFHost.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFHost\bin\Debug\WCFService.dll
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFHost\bin\Debug\WCFService.pdb
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFHost\obj\Debug\WCFHost.exe
+E:\Documents C\Толя\Для института\Солянка\Лабы C#\BD\WCFHost\obj\Debug\WCFHost.pdb
+E:\5_2\гайдаржи\BD(3)\WCFHost\bin\Debug\WCFHost.exe.config
+E:\5_2\гайдаржи\BD(3)\WCFHost\obj\Debug\WCFHost.exe
+E:\5_2\гайдаржи\BD(3)\WCFHost\obj\Debug\WCFHost.pdb
+E:\5_2\гайдаржи\BD(3)\WCFHost\bin\Debug\WCFHost.exe
+E:\5_2\гайдаржи\BD(3)\WCFHost\bin\Debug\WCFHost.pdb
+E:\5_2\гайдаржи\BD(3)\WCFHost\bin\Debug\WCFService.dll
+E:\5_2\гайдаржи\BD(3)\WCFHost\bin\Debug\WCFService.pdb
+E:\5_2\гайдаржи\BD(3)\WCFHost\obj\Debug\WCFHost.csprojResolveAssemblyReference.cache
